@@ -1,0 +1,9 @@
+.game-high__container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 24.375;
+	overflow: hidden;
+	margin: 2rem auto 0 auto;
+}
+

@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
-import { CardLabelComponent } from './components/card/card-label/card-label.component';
-import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HighlightGameComponent } from './components/highlight-game/highlight-game.component';
+import { PhotoComponent } from './components/highlight-game/photo/photo.component';
+import { DescriptionComponent } from './components/highlight-game/description/description.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +17,10 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
     HomeComponent,
     CardComponent,
     MenuBarComponent,
-    CardLabelComponent,
-    CardPricingComponent
+    FooterComponent,
+    HighlightGameComponent,
+    PhotoComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

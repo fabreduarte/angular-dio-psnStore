@@ -1,9 +1,8 @@
 .card__container {
 	position: relative;
-	border: 3px solid #3E4357;
 	border-radius: 10px;
-	width: 18.75rem;
-	height: 31.25rem;
+	width: 23.5rem;
+	height: 23.5rem;
 
 	display: flex;
 	overflow: hidden;
